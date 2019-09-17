@@ -59,6 +59,26 @@
                                     <action selector="blueButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o6r-8T-ibE"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mT7-cJ-0wf">
+                                <rect key="frame" x="299" y="200" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Purple">
+                                    <color key="titleColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="purpleButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mpv-Ri-jks"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXl-Hg-H1A">
+                                <rect key="frame" x="79" y="200" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Red">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="redButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dWd-o8-wTR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -67,6 +87,8 @@
                         <outlet property="blueButton" destination="TBw-cF-Cz0" id="IkB-5e-eMK"/>
                         <outlet property="greenButton" destination="Vzy-Qz-pfs" id="a9y-o4-HVJ"/>
                         <outlet property="inputField" destination="mpv-AO-ZXC" id="kX4-qc-54J"/>
+                        <outlet property="purpleButton" destination="mT7-cJ-0wf" id="O9C-Rh-Njk"/>
+                        <outlet property="redButton" destination="vXl-Hg-H1A" id="ir1-K4-Nge"/>
                         <outlet property="responseLabel" destination="JPy-ZP-2Zt" id="Pcg-cH-8aA"/>
                     </connections>
                 </viewController>
